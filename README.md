@@ -15,6 +15,12 @@ Travaux pratiques du module de base de donnees (2eme annee).
   - `universityDB-data.sql` : insertion des donnees
   - `request.sql` : reponses SQL (exercice 1)
   - `exercise4.py` : implementation Python (exercice 4)
+- `TP4/`
+  - `PLSQLSolution.pdf` : enonce du TP4
+  - `request.sql` : reponses PL/SQL (exercices 1, 2 et 3)
+- `TP5/`
+  - `TPTransactions.pdf` : enonce du TP5
+  - `request.sql` : scenarios SQL de transactions/concurrence
 
 ## Execution rapide
 
@@ -47,6 +53,19 @@ Dans SQLPlus, executer dans l'ordre:
 ```bash
 python3 TP2/exercise4.py
 ```
+
+### SQL (TP4)
+
+Dans SQLPlus:
+
+1. `@TP4/request.sql`
+
+### SQL (TP5)
+
+Dans SQLPlus:
+
+1. `@TP5/request.sql`
+2. Suivre les blocs `S1` et `S2` du fichier dans deux sessions SQLPlus ouvertes en parallele.
 
 ## Verification TP1
 
